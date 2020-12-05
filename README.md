@@ -11,7 +11,7 @@
 
 Requires at Python `3.7.3`.
 
-Install necessary packages:
+Install necessary packages (locally):
 
 ```bash
 python3 -m pip install -r requirements.txt
@@ -41,6 +41,12 @@ python3 bot.py
 ```
 
 ## Add the Bot to Autostart (Raspberry Pi OS)
+
+Install necessary packages (globally):
+
+```bash
+sudo -H python3 -m pip install -r requirements.txt
+```
 
 ## Credits
 ![K0nze Logo](./images/k_logo_30x30.png "Logo") Created by Konstantin (Konze) Lübeck

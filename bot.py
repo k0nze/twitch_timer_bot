@@ -18,6 +18,7 @@ __contact__     = {
 import os
 import json
 
+from pathlib import Path
 from dotenv import load_dotenv
 from os.path import join, dirname
 from twitchio.ext import commands
@@ -33,7 +34,7 @@ BOT_NICK = os.environ.get('BOT_NICK')
 BOT_PREFIX = os.environ.get('BOT_PREFIX')
 CHANNEL = os.environ.get('CHANNEL')
 
-JSON_FILE = 'data.json'
+JSON_FILE = str(os.path.dirname(os.path.realpath(__file__))) + '/data.json'
 
 
 bot = commands.Bot(
