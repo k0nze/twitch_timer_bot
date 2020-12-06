@@ -1,5 +1,11 @@
 # Twitch Count Bot 
 
+Simple Twitch bot template with three commands:
+
+ * `!count`: shows the `count` from [`data.json`](./data.json)
+ * `!add NUMBER`: adds `NUMBER` to `count` in  [`data.json`](./data.json)
+ * `!sub NUMBER`: subtracts `NUMBER` from `count` in  [`data.json`](./data.json)
+
 ## Setup Video
 <a href="https://youtu.be/nW5W9JBWX5Y">
     <img src="./images/youtube_thumbnail.jpg" width="500"/>
