@@ -8,7 +8,7 @@ Simple Twitch bot template with three commands:
 
 ## Setup Video
 <a href="https://youtu.be/nW5W9JBWX5Y">
-    <img src="./images/youtube_thumbnail.jpg" width="500"/>
+    <img src="./images/youtube_thumbnail.png" width="500"/>
 </a>
 
 [Youtube Video Link](https://youtu.be/nW5W9JBWX5Y)
