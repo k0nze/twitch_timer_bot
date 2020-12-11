@@ -117,7 +117,7 @@ async def test(ctx):
 
         # parse add command
         command_string = ctx.message.content
-        # remove '!add' and white space
+        # remove '!sub' and white space
         command_string = command_string.replace('!sub', '').strip()
         # parse int
         value = 0
