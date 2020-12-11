@@ -7,11 +7,11 @@ Simple Twitch bot template with three commands:
  * `!sub NUMBER`: subtracts `NUMBER` from `count` in  [`data.json`](./data.json)
 
 ## Setup Video
-<a href="https://youtu.be/nW5W9JBWX5Y">
+<a href="https://youtu.be/CPVSoowZhVw">
     <img src="./images/youtube_thumbnail.png" width="500"/>
 </a>
 
-[Youtube Video Link](https://youtu.be/nW5W9JBWX5Y)
+[Youtube Video Link](https://youtu.be/CPVSoowZhVw)
 
 ## Setup and Run
 
