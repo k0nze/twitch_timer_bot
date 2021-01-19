@@ -68,7 +68,7 @@ async def event_message(ctx):
 
 
 @bot.command(name='count')
-async def test(ctx):
+async def on_count(ctx):
     """
     Runs when the count command was issued in the Twitch chat and sends the 
     current count to the chat
@@ -78,7 +78,7 @@ async def test(ctx):
 
 
 @bot.command(name='add')
-async def test(ctx):
+async def on_add(ctx):
     """
     Runs when the add command was issued in the Twitch chat and adds to the 
     count
@@ -107,7 +107,7 @@ async def test(ctx):
 
 
 @bot.command(name='sub')
-async def test(ctx):
+async def on_sub(ctx):
     """
     Runs when the add command was issued in the Twitch chat and subtracts from 
     the count
