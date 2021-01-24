@@ -32,7 +32,7 @@ cp .env.sample .env
 
 Open `.env` and insert the following fields:
 
-| Field        | Explaination                                                          |
+| Field        | Explanation                                                           |
 |--------------|-----------------------------------------------------------------------|
 | `TMI_TOKEN`  | OAuth Token with `oauth:` as a prefix                                 |
 | `CLIENT_ID`  | Client ID obtained from Twitch's Developer site                       |
