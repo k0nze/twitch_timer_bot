@@ -1,17 +1,22 @@
 # Twitch Count Bot 
 
-Simple Twitch bot template with three commands:
+Simple Twitch bot (forked from: [Twitch Count Bot](https://github.com/k0nze/twitch_count_bot)) which sets a timer and replies with `!timeralert` when the time is up:
 
- * `!count`: shows the `count` from [`data.json`](./data.json)
- * `!add NUMBER`: adds `NUMBER` to `count` in  [`data.json`](./data.json)
- * `!sub NUMBER`: subtracts `NUMBER` from `count` in  [`data.json`](./data.json)
+ * `!settimer ([0-9]+(s|m|h))+`: sets a timer for a given time (e.g. `!settimer 1h 10m` will set a timer for 1 hour and 10 minutes).
 
-## Setup Video
+## Setup Videois
 <a href="https://youtu.be/CPVSoowZhVw">
-    <img src="./images/youtube_thumbnail.png" width="500"/>
+    <img src="./images/youtube_twitch_count_bot_thumbnail.png" width="500"/>
 </a>
 
 [Youtube Video Link](https://youtu.be/CPVSoowZhVw)
+
+
+<a href="https://youtu.be/7cK-uAjTOdU">
+    <img src="./images/youtube_twitch_timer_thumbnail.jpg" width="500"/>
+</a>
+
+[Youtube Video Link](https://youtu.be/7cK-uAjTOdU)
 
 ## Setup and Run
 
@@ -44,52 +49,6 @@ Start Bot:
 
 ```
 python3 bot.py
-```
-
-## Add the Bot to Autostart/systemd (Raspberry Pi OS)
-
-Install necessary packages (globally):
-
-```bash
-sudo -H python3 -m pip install -r requirements.txt
-```
-
-Open the unit file [`twitch_count_bot.service`](./twitch_count_bot.service) and check if the path to `bot.py` under `[Serivce]` `ExecStart` is correct.
-
-Copy systemd unit file to unit file directory:
-
-```bash
-sudo cp twitch_count_bot.service /lib/systemd/system
-```
-
-Reload all units:
-
-```bash
-sudo systemctl daemon-release
-```
-
-Enable the Twitch Count Bot Unit:
-
-```
-sudo systemctl enable twitch_count_bot.service
-```
-
-Start the bot:
-
-```
-sudo systemctl start twitch_count_bot.service
-```
-
-Check if the bot is running with:
-
-```
-sudo systemctl status twitch_count_bot.service
-```
-
-Check if the output of the bot if an error occurs:
-
-```
-sudo systemctl enable twitch_count_bot.service
 ```
 
 ## Credits
