@@ -4,7 +4,7 @@ Simple Twitch bot (forked from: [Twitch Count Bot](https://github.com/k0nze/twit
 
  * `!settimer ([0-9]+(s|m|h))+`: sets a timer for a given time (e.g. `!settimer 1h 10m` will set a timer for 1 hour and 10 minutes).
 
-## Setup Videois
+## Setup Videos
 <a href="https://youtu.be/CPVSoowZhVw">
     <img src="./images/youtube_twitch_count_bot_thumbnail.png" width="500"/>
 </a>
